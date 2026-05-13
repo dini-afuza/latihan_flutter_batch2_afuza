@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:latihan_flutter_batch2_afuza/tugas2.dart';
+import 'package:latihan_flutter_batch2_afuza/tugas3.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: const Color.fromARGB(255, 77, 3, 204)),
       ),
-      home: MerchantProfilePage(),
+      home:ScoreGGTaskPage(),
     );
   }
 }
